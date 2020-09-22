@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.b-color{
+    background-color: rgb(52, 75, 90);
+}
+.nav-f{
+    background-color: rgb(52, 75, 90);
+    color: white;
+}
+.nav-l{
+    margin-right: 10%;
+}
+.nav-logo {
+    margin-left: 9%;
+}
+.nav-logo img{
+    height: 36px;
+}
+.nav-f .navbar-nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav-f .navbar-nav a:hover{
+    color: cornsilk;
+}
+.main{
+    background-image: url(/img/Header-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 570px;
+    width: 100%;
+}
+.text h1 span {
+    font-weight: 700;
+}
+.fast{
+    margin-top: 9%;
+    margin-left: 8%;
+}
+.you{
+    margin-left: 9%;
+}
+.see{
+    padding: 13px 26px;
+    border: none;
+    background-color: rgb(230, 59, 59);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 8%;
+}
+.see:hover{
+    background-color: aqua;
+    transition: .5s;
+    cursor: pointer;
+}
+.serve{
+    margin-top: 5%;
+}
+.bg-card {
+    background-color: #f9f9f9;
+}
+.serve h4{
+    font-weight: 600;
+}
+.shad{
+    box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.5);
+}
+.shad:hover{
+    box-shadow: 0px 0px 51px 0px rgba(0,0,0,0.5);
+    transition: 1s;
+}
+.bg-star{
+    background-color: #52a1a5;
+}
+.features:hover{
+    transform: translateY(-20px);
+    transition: all 0.5s ease;
+}
+.scard{
+    font-weight: 600;
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+}
+.footp{
+    font-weight: 600;
+    color: #5fc5c7;
+    font-size: 20px;
+}
+.foot-cop{
+    background-color: black;
+    margin-bottom: 0;
+    padding-left: 9%;
+}
+.main h3{
+    display: none;
+}
+@media only screen and (max-width: 575px){
+
+    .main{
+        background-image: url(/img/Header-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 570px;
+        width: 100%;
+    }
+    .nav-logo {
+        margin-left: 1% !important;
+        float: left;
+    }
+    .main h3{
+        display: block;
+        margin-top: 20%;
+    }
+    .main h1{
+        display: none;
+    }
+    .ssd{
+        display: none;
+    }
+    .nav-l{
+        margin-right: 0;
+    }
+}
